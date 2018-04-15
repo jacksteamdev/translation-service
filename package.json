@@ -25,9 +25,9 @@
     "google-auth-library": "^0.10.0",
     "google-translate-api": "teamsteamdev/google-translate-api#2083",
     "googleapis": "^18.0.0",
-    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken": "^8.0.0",
     "lodash": "^4.17.4",
-    "validator": "^7.0.0"
+    "validator": "^9.4.1"
   },
   "devDependencies": {
     "expect": "^1.20.2",
