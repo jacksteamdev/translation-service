@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - axios > follow-redirects > debug:
+        patched: '2018-12-08T02:08:58.467Z'
+    - express > finalhandler > debug:
+        patched: '2018-12-08T02:08:58.467Z'
+  'npm:ms:20170412':
+    - axios > follow-redirects > debug > ms:
+        patched: '2018-12-08T02:08:58.467Z'
+    - express > finalhandler > debug > ms:
+        patched: '2018-12-08T02:08:58.467Z'

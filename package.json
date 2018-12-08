@@ -7,7 +7,9 @@
     "start": "node server/server.js",
     "start-watch": "nodemon --exec 'yarn start'",
     "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha **/*.test.js",
-    "test-watch": "nodemon --exec 'yarn test'"
+    "test-watch": "nodemon --exec 'yarn test'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "8.9.1"
@@ -18,21 +20,23 @@
     "array-flatten": "^2.1.1",
     "axios": "^0.16.0",
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.18.2",
     "crypto-js": "^3.1.9-1",
     "easy-edit-table": "teamsteamdev/easy-edit-table",
-    "express": "^4.15.2",
+    "express": "^4.16.0",
     "google-auth-library": "^0.10.0",
     "google-translate-api": "teamsteamdev/google-translate-api#2083",
     "googleapis": "^18.0.0",
-    "jsonwebtoken": "^7.3.0",
-    "lodash": "^4.17.4",
-    "validator": "^7.0.0"
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.5",
+    "validator": "^7.0.0",
+    "snyk": "^1.116.2"
   },
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",
     "supertest": "^3.0.0"
-  }
+  },
+  "snyk": true
 }
