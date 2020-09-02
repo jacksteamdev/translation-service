@@ -24,7 +24,7 @@
     "express": "^4.15.2",
     "google-auth-library": "^0.10.0",
     "google-translate-api": "teamsteamdev/google-translate-api#2083",
-    "googleapis": "^18.0.0",
+    "googleapis": "^39.1.0",
     "jsonwebtoken": "^7.3.0",
     "lodash": "^4.17.4",
     "validator": "^7.0.0"
